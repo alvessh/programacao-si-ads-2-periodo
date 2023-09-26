@@ -1,0 +1,52 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto como Arial ou uma fonte sans-serif (sem serifa) caso Arial não esteja disponível */
+    background-color: #f5f5f5; /* Define a cor de fundo como um cinza claro (#f5f5f5) */
+    margin: 0; /* Remove margens ao redor do corpo da página */
+    padding: 0; /* Remove preenchimentos dentro do corpo da página */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho como um tom escuro de cinza (#333) */
+    color: #fff; /* Define a cor do texto como branco (#fff) */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 20px 0; /* Adiciona 20 pixels de espaço acima e abaixo do texto no cabeçalho */
+}
+
+/* Estilos para os títulos de nível 1 */
+h1 {
+    font-size: 36px; /* Define o tamanho da fonte como 36 pixels */
+}
+
+/* Estilos para listas não ordenadas */
+ul {
+    list-style: none; /* Remove os marcadores padrão de listas */
+    padding: 0; /* Remove o preenchimento padrão de listas */
+    margin: 20px 0; /* Adiciona 20 pixels de espaço acima e abaixo da lista */
+}
+
+/* Estilos para itens de lista */
+li {
+    margin-bottom: 10px; /* Adiciona 10 pixels de espaço abaixo de cada item de lista */
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none; /* Remove a decoração de texto padrão de links */
+    color: #007acc; /* Define a cor do link como um azul claro (#007acc) */
+}
+
+/* Estilos para links quando passam o mouse sobre eles */
+a:hover {
+    text-decoration: underline; /* Adiciona uma linha de sublinhado quando o mouse passa sobre o link */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    max-width: 800px; /* Define a largura máxima do contêiner como 800 pixels */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente na página */
+    padding: 20px; /* Adiciona 20 pixels de preenchimento dentro do contêiner */
+    background-color: #fff; /* Define a cor de fundo do contêiner como branco (#fff) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao redor do contêiner */
+}
