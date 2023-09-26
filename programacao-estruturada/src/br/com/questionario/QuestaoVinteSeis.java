@@ -22,7 +22,7 @@ public class QuestaoVinteSeis {
 		System.out.println(resto);
 	}
 
-	//Saída: Resultado:
+	//Saída: 
 	/*
 	 * 15
 		5
